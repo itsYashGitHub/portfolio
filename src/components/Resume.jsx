@@ -109,7 +109,7 @@ export default function Resume() {
                   Download the full version with all details, projects, and contact information.
                 </p>
                 <a
-                  href="/resume.pdf"
+                  href="/portfolio/resume.pdf"
                   download
                   className="group inline-flex items-center gap-2.5 w-full justify-center px-6 py-3.5 bg-accent text-white font-body font-medium rounded-xl hover:bg-accent/90 transition-all duration-200 shadow-lg shadow-accent/20 hover:shadow-accent/30 hover:shadow-xl"
                 >
