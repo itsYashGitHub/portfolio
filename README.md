@@ -104,37 +104,5 @@ const handleSubmit = async (e) => {
 }
 ```
 
----
-
-## 🌐 Deployment
-
-### Vercel (recommended)
-```bash
-npm i -g vercel
-vercel
-```
-
-### Netlify
-```bash
-npm run build
-# Drag and drop the dist/ folder at netlify.com
-```
-
-### GitHub Pages
-```bash
-npm install --save-dev gh-pages
-```
-Add to `package.json`:
-```json
-"homepage": "https://yourusername.github.io/portfolio",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-```
-Then run `npm run deploy`.
-
----
-
 ## 📄 License
 MIT — free to use and customize.
